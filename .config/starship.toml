@@ -18,7 +18,6 @@
 
 # Prompt Formatting
 format = """
-[░▒▓](#79bd9a)\
 [ $os $username](bg:#79bd9a fg:#000000)\
 [](bg:#3b8686 fg:#79bd9a)\
 $directory\
