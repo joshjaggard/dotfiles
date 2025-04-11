@@ -30,17 +30,15 @@ $docker_context\
 $nodejs\
 $python\
 $terraform\
-[](fg:#000000 bg:#28304a)\
-$time\
-[ ](fg:#28304a)\
+$time (bg:#79bd9a fg:#79bd9a)\
 \n$shell$character"""
 
 # Custom Settings
 [directory]
 style = "fg:#e3e5e5 bg:#3b8686"
 format = "[ $path ]($style)"
-truncate_to_repo = true
-truncation_length = 5
+truncate_to_repo = false
+truncation_length = 3
 truncation_symbol = "…/"
 
 [git_branch]
@@ -66,7 +64,7 @@ disabled = false
 [time]
 disabled = false
 time_format = "%T" # Hour:Minute:Second Format # https://docs.rs/chrono/0.4.7/chrono/format/strftime/index.html
-style = "fg:#a8f972 bg:#28304a"
+style = "fg:#a8f972"
 format = "[  $time ]($style)"
 
 [username]
